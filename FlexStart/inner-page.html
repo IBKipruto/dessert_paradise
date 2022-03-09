@@ -50,9 +50,9 @@
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html">About</a></li>
-<!--          <li><a class="nav-link scrollto" href="#cakes">Cakes</a></li>-->
-          <li><a class="nav-link scrollto" href="index.html">Catalogue</a></li>
-<!--          <li><a class="nav-link scrollto" href="#team">Team</a></li>-->
+          <li><a class="nav-link scrollto" href="index.html#services">Cakes</a></li>
+          <li><a class="nav-link scrollto" href="index.html#portfolio">Catalogue</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
 <!--          <li><a class="nav-link scrollto" href="#team">Ice cream</a></li>-->
           <!--          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>-->
           <!--            <ul>-->
@@ -71,7 +71,7 @@
           <!--              <li><a href="#">Drop Down 4</a></li>-->
           <!--            </ul>-->
           </li>
-          <li><a class="nav" href="index.html">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact Us</a></li>
 <!--          <li><a class="getstarted scrollto" href="#contact">Order Now</a></li>-->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -102,38 +102,42 @@
         </p>
       </div>
 
-      <div class="col-lg-6" style="align-content: center">
-        <form action="forms/orders.php" method="post" class="php-email-form">
-          <div class="row gy-4">
+      <div class="col-lg-6" style="padding-left: 20px">
 
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-            </div>
-
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-            </div>
-
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="order" placeholder="Your Order" required>
-            </div>
-
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Any other instructions?" required></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Order sent successfully. Our team will call you shortly to confirm your Order</div>
-
-              <button type="submit">Place Order Message</button>
-            </div>
-
+      <form action="forms/orders.php" method="post">
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
           </div>
-        </form>
+          <div class="col-md-6">
+            <input type="text" name="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="phone" class="form-control" placeholder="Your Phone Number" required>
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="order" class="form-control" placeholder="Product ID" required>
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="address" class="form-control" placeholder="Pick-up/Delivery Address" required>
+          </div>
+          <div class="col-md-6">
+            <input type="datetime-local" name="delivery" class="form-control" placeholder="Delivery date" required>
+          </div>
+          <div class="col-md-12">
+            <textarea class="form-control" name="special" rows="6" placeholder="Any special notes" required></textarea>
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your order has been sent. Thank you!</div>
 
+            <button type="submit">Place Order</button>
+          </div>
+        </div>
+      </form>
       </div>
+
     </section>
 
   </main><!-- End #main -->
@@ -149,7 +153,7 @@
             <p>Subscribe to get special offer updates</p>
           </div>
           <div class="col-lg-6">
-            <form action="" method="post">
+            <form action="forms/orders.php" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
