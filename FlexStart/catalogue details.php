@@ -41,19 +41,19 @@
 <header id="header" class="header fixed-top">
   <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-    <a href="index.html" class="logo d-flex align-items-center">
-      <img src="assets/img/logo_1.png" alt="">
-      <span>Dessert Paradise</span>
+    <a href="index.php" class="logo d-flex align-items-center">
+      <img src="assets/img/logo.png" alt="">
+      <span>FlexStart</span>
     </a>
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-        <li><a class="nav-link scrollto" href="index.html#portfolio">Cakes</a></li>
-        <li><a class="nav-link scrollto" href="index.html#portfolio">Catalogue</a></li>
-        <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-        <li><a class="nav-link scrollto" href="index.html#team">Ice cream</a></li>
+        <li><a class="nav-link" href="index.php#home">Home</a></li>
+        <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+        <li><a class="nav-link scrollto" href="index.php#cakes">Cakes</a></li>
+        <li><a class="nav-link scrollto" href="index.php#portfolio">Catalogue</a></li>
+        <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+        <li><a class="nav-link scrollto" href="index.php#team">Ice cream</a></li>
         <!--          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>-->
         <!--            <ul>-->
         <!--              <li><a href="#">Drop Down 1</a></li>-->
@@ -71,8 +71,8 @@
         <!--              <li><a href="#">Drop Down 4</a></li>-->
         <!--            </ul>-->
         </li>
-        <li><a class="nav-link scrollto" href="index.html">Contact Us</a></li>
-        <li><a class="getstarted" href="inner-page.html">Order Now</a></li>
+        <li><a class="nav-link scrollto" href="index.php#contact">Contact Us</a></li>
+        <li><a class="getstarted scrollto" href="index.php#about">Order Now</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -87,10 +87,10 @@
     <div class="container">
 
       <ol>
-        <li><a href="index.html">Home</a></li>
-        <li>Catalogue Details</li>
+        <li><a href="index.php">Home</a></li>
+        <li>Portfolio Details</li>
       </ol>
-      <h2>Product Details</h2>
+      <h2>Portfolio Details</h2>
 
     </div>
   </section><!-- End Breadcrumbs -->
@@ -106,15 +106,15 @@
             <div class="swiper-wrapper align-items-center">
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/icecream1.jpg" alt="">
+                <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
               </div>
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/icecream2.jpg" alt="">
+                <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
               </div>
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/icecream3.jpg" alt="">
+                <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
               </div>
 
             </div>
@@ -124,18 +124,18 @@
 
         <div class="col-lg-4">
           <div class="portfolio-info">
-            <h3>Medium cone Ice Cream</h3>
+            <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>Ice creams &Froyo</li>
-              <li><strong>Product ID</strong>:ICE354</li>
-              <li><strong>Price</strong>:Ksh 200</li>
-              <!--                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>-->
+              <li><strong>Category</strong>: Web design</li>
+              <li><strong>Client</strong>: ASU Company</li>
+              <li><strong>Project date</strong>: 01 March, 2020</li>
+              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
             </ul>
           </div>
           <div class="portfolio-description">
-            <h2>Product Details</h2>
+            <h2>This is an example of portfolio detail</h2>
             <p>
-              Perfect scoops of mixed heavenly flavours sure to make your taste buds explode out of excitement.
+              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
             </p>
           </div>
         </div>
@@ -155,7 +155,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
           <h4>Our Newsletter</h4>
-          <p>Subscribe to get special offer updates</p>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
         </div>
         <div class="col-lg-6">
           <form action="" method="post">
@@ -171,10 +171,10 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/logo_1.png" alt="">
-            <span>Cakeshop</span>
+            <img src="assets/img/logo.png" alt="">
+            <span>FlexStart</span>
           </a>
-          <p>Some catchy thing in a paragraph</p>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
           <div class="social-links mt-3">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -186,32 +186,32 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#about">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#services">Cake</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Catalogue</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#services">Cakes</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#portfolio">Fondant Icing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#portfolio">Party Planning</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#about">Marketing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#features">Ice cream</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
           <p>
-            Baringo Road, Kahawa Sukari, <br>
-            Nairobi 00100,<br>
-            Kenya <br><br>
-            <strong>Phone:</strong> +254 (0) 711 226 993<br>
+            A108 Adam Street <br>
+            New York, NY 535022<br>
+            United States <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
             <strong>Email:</strong> info@example.com<br>
           </p>
 
@@ -223,14 +223,14 @@
 
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong><span>Dessert Paradise </span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">IBKipruto</a>
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
   </div>
 </footer><!-- End Footer -->

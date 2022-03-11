@@ -73,7 +73,7 @@
 <!--            </ul>-->
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
-          <li><a class="getstarted scrollto" href="inner-page.html"> Place Order</a></li>
+          <li><a class="getstarted scrollto" href="inner-page.php"> Place Order</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -99,7 +99,7 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/about.png"800" width="600"  alt="">
+          <img src="assets/img/about.png" height="800" width="450" alt="">
         </div>
       </div>
     </div>
@@ -466,7 +466,7 @@
               <i class="ri-discuss-line icon"></i>
               <h3>Birthday Cakes</h3>
               <p>Three categories Birthday Graduation and Wedding Cakes.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#portfolio" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -624,7 +624,7 @@
                 </h2>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                   <div class="accordion-body">
-                    Our Orders are processed in a systematic manner ....Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    Our Orders are processed in a systematic manner. depending on the time you placed your order and thr bulk of your order, delivery can take as low as 30 minutes to 3days..
                   </div>
                 </div>
               </div>
@@ -798,7 +798,7 @@
                 <p>Ice Cream</p>
                 <div class="portfolio-links">
                   <a href="assets/img/sheycakes/25.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="portfolio-details.php" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -811,8 +811,8 @@
                 <h4>Baking trays</h4>
                 <p>Accessories</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/sheycakes/27.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="assets/img/sheycakes/" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.php" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -826,7 +826,7 @@
                 <p>Cakes</p>
                 <div class="portfolio-links">
                   <a href="assets/img/sheycakes/29.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="portfolio-details.php" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -840,7 +840,7 @@
                 <p>Cakes</p>
                 <div class="portfolio-links">
                   <a href="assets/img/sheycakes/31.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="portfolio-details.php" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -854,7 +854,7 @@
                 <p>Ice cream</p>
                 <div class="portfolio-links">
                   <a href="assets/img/sheycakes/34.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="portfolio-details.php" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -885,11 +885,11 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Having one single person as a permanent contact makes for a very effective working relationship. This person knows our company very well. He links up with the local Atradius collectors, who have local expertise and know the procedures and regulations in the countries where they work. Atradius Collections reports straightforward and totally transparent. Plus its reporting is adapted to our financial structure. Atradius Collections also know our customers well, so very often they can operate proactively – and they always act quickly.</p>
+                  I am not a sweet tooth but dessert paradise cakes are out of this world. I ordered a 2kg cake and 50 cupcakes for my graduation and most of my guests still talk about it a year later.Dessert Paradise also know our customers well, so very often they can operate proactively – and they always act quickly.</p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <img src="assets/img/team/potrait.jpg" class="testimonial-img" alt="">
+                  <h3>Catherine Njeri</h3>
+                  <h4>Valued Client</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -902,7 +902,7 @@
                 <p>
                   Having one single person as a permanent contact makes for a very effective working relationship. This person knows our company very well. He links up with the local Atradius collectors, who have local expertise and know the procedures and regulations in the countries where they work. Atradius Collections reports straightforward and totally transparent. Plus its reporting is adapted to our financial structure. Atradius Collections also know our customers well, so very often they can operate proactively – and they always act quickly.</p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <img src="assets/img/team/potrait.jpg" class="testimonial-img" alt="">
                   <h3>Sara Wilsson</h3>
                   <h4>Designer</h4>
                 </div>
@@ -915,11 +915,11 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Having one single person as a permanent contact makes for a very effective working relationship. This person knows our company very well. He links up with the local Atradius collectors, who have local expertise and know the procedures and regulations in the countries where they work. Atradius Collections reports straightforward and totally transparent. Plus its reporting is adapted to our financial structure. Atradius.</p>
+                  Ever since we patnered with Dessert paradise we have had consistent flow of customers. This person knows our company very well.</p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <img src="assets/img/team/potrait.jpg" class="testimonial-img" alt="">
+                  <h3>The Piggery</h3>
+                  <h4>Patner Business</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -988,7 +988,7 @@
               <div class="member-info">
                 <h4>Isaac Brian</h4>
                 <span>Owner</span>
-                <p>Isaac (born 1976) is a Ghanaian entrepreneur and leadership development expert. He has launched four organizations that aim to develop leaders, primarily in Africa.</p>
+                <p>Isaac (born 2000) is a Kenyan entrepreneur and leadership development expert. He has launched four organizations that aim to develop leaders, primarily in Africa.</p>
               </div>
             </div>
           </div>
@@ -1007,7 +1007,7 @@
               <div class="member-info">
                 <h4>Fancy Laboso</h4>
                 <span>Chief Baker</span>
-                <p>Isaac (born 1976) is a Ghanaian entrepreneur and leadership development expert. He has launched four organizations that aim to develop leaders, primarily in Africa.</p>
+                <p>Fancy is professional in the area of baking consultancy and teaching.She has made her name by delivering quality baked goods for over 3 years. </p>
               </div>
             </div>
           </div>
@@ -1316,16 +1316,16 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
               <img src="assets/img/logo_1.png" alt="">
               <span>Cakeshop</span>
             </a>
-            <p>Some catchy thing in a paragraph</p>
+            <p>We bring heaven to earth through desserts</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://twitter.com/_Isaac_Brian" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.instagram.com/_iamkipruto/" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/_iamkipruto/" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/isaac-brian-k-245147152/" target="_blank"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 

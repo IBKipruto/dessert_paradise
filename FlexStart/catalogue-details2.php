@@ -49,11 +49,11 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-        <li><a class="nav-link scrollto" href="index.html#portfolio">Cakes</a></li>
-        <li><a class="nav-link scrollto" href="index.html#portfolio">Catalogue</a></li>
-        <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-        <li><a class="nav-link scrollto" href="index.html#team">Ice cream</a></li>
+        <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+        <li><a class="nav-link scrollto" href="index.php#portfolio">Cakes</a></li>
+        <li><a class="nav-link scrollto" href="index.php#portfolio">Catalogue</a></li>
+        <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+        <li><a class="nav-link scrollto" href="index.php#team">Ice cream</a></li>
         <!--          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>-->
         <!--            <ul>-->
         <!--              <li><a href="#">Drop Down 1</a></li>-->
@@ -71,8 +71,8 @@
         <!--              <li><a href="#">Drop Down 4</a></li>-->
         <!--            </ul>-->
         </li>
-        <li><a class="nav-link scrollto" href="index.html">Contact Us</a></li>
-        <li><a class="getstarted" href="inner-page.html">Order Now</a></li>
+        <li><a class="nav-link scrollto" href="index.php">Contact Us</a></li>
+        <li><a class="getstarted" href="inner-page.php">Order Now</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -87,7 +87,7 @@
     <div class="container">
 
       <ol>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li>Catalogue Details</li>
       </ol>
       <h2>Product Details</h2>
@@ -170,7 +170,7 @@
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="index.php" class="logo d-flex align-items-center">
             <img src="assets/img/logo_1.png" alt="">
             <span>Cakeshop</span>
           </a>
@@ -186,22 +186,22 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#about">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#services">Cake</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Catalogue</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php#about">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php#services">Cake</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php#portfolio">Catalogue</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php#contact">Contact us</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#services">Cakes</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#portfolio">Fondant Icing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#portfolio">Party Planning</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#about">Marketing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#features">Ice cream</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.php#services">Cakes</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.php#portfolio">Fondant Icing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.php#iportfolio">Party Planning</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.php#about">Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.php#features">Ice cream</a></li>
           </ul>
         </div>
 

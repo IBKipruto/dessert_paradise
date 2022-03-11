@@ -1,4 +1,4 @@
-<form action="/orders.php" method="post">
+<form action="forms/orders.php" method="post">
     <label for="fname">Full name:</label><br>
     <input type="text" id="fname" name="fname" placeholder="full name"><br>
     <label for="mail">Email</label><br>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Catalogue Details - Dessert Paradise</title>
+  <title>Dessert Paradise-Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -48,12 +48,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Cakes</a></li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Catalogue</a></li>
-          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="index.html#team">Ice cream</a></li>
+          <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.php">About</a></li>
+          <li><a class="nav-link scrollto" href="index.php#services">Cakes</a></li>
+          <li><a class="nav-link scrollto" href="index.php#portfolio">Catalogue</a></li>
+          <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+<!--          <li><a class="nav-link scrollto" href="#team">Ice cream</a></li>-->
           <!--          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>-->
           <!--            <ul>-->
           <!--              <li><a href="#">Drop Down 1</a></li>-->
@@ -71,8 +71,8 @@
           <!--              <li><a href="#">Drop Down 4</a></li>-->
           <!--            </ul>-->
           </li>
-          <li><a class="nav-link scrollto" href="index.html">Contact Us</a></li>
-          <li><a class="getstarted" href="inner-page.html">Order Now</a></li>
+          <li><a class="nav-link scrollto" href="index.php#contact">Contact Us</a></li>
+<!--          <li><a class="getstarted scrollto" href="#contact">Order Now</a></li>-->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -87,63 +87,60 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Catalogue Details</li>
+          <li><a href="index.php">Home</a></li>
+          <li>Orders</li>
         </ol>
-        <h2>Product Details</h2>
+        <h2>Orders Now</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <section class="inner-page">
+      <section id="contact" class="contact">
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/oven-tray1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/oven-tray2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/oven-tray3.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Assorted oven trays</h3>
-              <ul>
-                <li><strong>Category</strong>:Accessories</li>
-                <li><strong>Product ID</strong>:RED002</li>
-                <li><strong>Price</strong>:Ksh 1200</li>
-<!--                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>-->
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>Product Details</h2>
-              <p>
-               Baked for 3 hrs in medium heat to ensure proper cooking while remaining moist. Icing can be fondant if you don't mind a lot of sugar but, we have whipped cream option for y'all health freaks.
-                </p>
-            </div>
-          </div>
-
-        </div>
-
+        <p>
+          Place your order By filling the form Below
+        </p>
       </div>
-    </section><!-- End Portfolio Details Section -->
+
+      <div class="col-lg-6" style="padding-left: 20px">
+
+          <form action="forms/orders.php" method="post">
+              <div class="row gy-4">
+                  <div class="col-md-6">
+                      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6">
+                      <input type="text" name="email" class="form-control" placeholder="Your Email" required>
+                  </div>
+                  <div class="col-md-6">
+                      <input type="text" name="phone" class="form-control" placeholder="Your Phone Number" required>
+                  </div>
+                  <div class="col-md-6">
+                      <input type="text" name="ref" class="form-control" placeholder="Product ID" required>
+                  </div>
+                  <div class="col-md-6">
+                      <input type="text" name="delivery" class="form-control" placeholder="Pick-up/Delivery Address" required>
+                  </div>
+                  <div class="col-md-6">
+                      <input type="datetime-local" name="date" class="form-control" placeholder="Delivery date" required>
+                  </div>
+                  <div class="col-md-12">
+                      <textarea class="form-control" name="special" rows="6" placeholder="Any special notes" required></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+<!--                      <div class="loading">Loading</div>-->
+<!--                      <div class="error-message"></div>-->
+<!--                      <div class="sent-message">Your order has been sent. Thank you!</div>-->
+
+                      <button type="submit">Place Order</button>
+                  </div>
+              </div>
+          </form>
+      </div>
+      </section>
+
+    </section>
 
   </main><!-- End #main -->
 
@@ -158,9 +155,7 @@
             <p>Subscribe to get special offer updates</p>
           </div>
           <div class="col-lg-6">
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+
           </div>
         </div>
       </div>
